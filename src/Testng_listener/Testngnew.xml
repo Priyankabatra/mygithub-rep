@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNgSuite">
+
+	<listeners>
+		<listener class-name="Listener_ex" />
+	</listeners>
+
+  <test thread-count="5" name="RegressionTesting">
+  
+    <classes>
+      
+      <class name="example.Testcase"/>
+      <class name="example.SearchTest"/>
+      <class name="example.CredentialTest"/>
+      
+    </classes>
+    
+  </test> <!-- RegressionTesting -->
+</suite> <!-- TestNgSuite -->
